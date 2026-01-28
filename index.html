@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restro Food</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero" id="top">
+    <nav class="nav">
+      <div class="logo">Restro Foods
+      </div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#visit">Visit</a>
+        <a href="#contact" class="btn ghost small">Book a table</a>
+      </div>
+    </nav>
+    <div class="hero-content">
+      <div>
+        <p class="eyebrow">Fresh • Warm • Comfort</p>
+        <h1>Restro Food serves simple, soulful plates every day.</h1>
+        <p class="lede">From fluffy idlis to crispy dosas and filter coffee, we keep it cozy and quick for everyday cravings.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#menu">See today’s menu</a>
+          <a class="btn ghost" href="#contact">Reserve</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h3>Today’s Special</h3>
+        <p class="special">Masala Dosa + Filter Coffee</p>
+        <p class="muted">Served with coconut chutney & sambar</p>
+        <div class="price-tag">₹120</div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section highlights" id="about">
+    <div class="section-head">
+      <p class="eyebrow">Why dine with us</p>
+      <h2>Comfort food, done simply.</h2>
+    </div>
+    <div class="grid three">
+      <div class="card">
+        <h3>Fresh, daily</h3>
+        <p>We grind batter in-house and brew coffee the traditional way.</p>
+      </div>
+      <div class="card">
+        <h3>Quick service</h3>
+        <p>Counter to table in minutes, whether you dine in or take away.</p>
+      </div>
+      <div class="card">
+        <h3>Honest pricing</h3>
+        <p>Great plates that keep your wallet happy—every day of the week.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section menu-preview" id="menu">
+    <div class="section-head">
+      <p class="eyebrow">Menu preview</p>
+      <h2>South Indian staples</h2>
+    </div>
+    <div class="grid three">
+      <div class="menu-card">
+        <div class="menu-top">
+          <h3>Idly</h3>
+          <span class="price">₹30</span>
+        </div>
+        <p>Steamed rice cakes with coconut chutney & sambar.</p>
+      </div>
+      <div class="menu-card">
+        <div class="menu-top">
+          <h3>Masala Dosa</h3>
+          <span class="price">₹100</span>
+        </div>
+        <p>Golden crisp dosa stuffed with spiced potato masala.</p>
+      </div>
+      <div class="menu-card">
+        <div class="menu-top">
+          <h3>Filter Coffee</h3>
+          <span class="price">₹40</span>
+        </div>
+        <p>Classic South Indian filter coffee, hot and frothy.</p>
+      </div>
+    </div>
+    <div class="center">
+      <a class="btn ghost" href="#contact">Ask for the full menu</a>
+    </div>
+  </section>
+
+  <section class="section visit" id="visit">
+    <div class="section-head">
+      <p class="eyebrow">Visit us</p>
+      <h2>Drop in or pre-book</h2>
+    </div>
+    <div class="grid two">
+      <div class="card">
+        <h3>Hours</h3>
+        <p>Mon–Sat: 7:30 AM – 10:00 PM</p>
+        <p>Sun: 8:00 AM – 9:00 PM</p>
+      </div>
+      <div class="card">
+        <h3>Location</h3>
+        <p>123 Coastal Road, Chennai</p>
+        <p>Call: +91 98765 43210</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="contact-card">
+      <div>
+        <p class="eyebrow">Reserve / Say hello</p>
+        <h2>We’ll hold you a table.</h2>
+        <p class="muted">Tell us when you’re coming and we’ll confirm shortly.</p>
+      </div>
+      <form id="contactForm" class="form">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input id="name" name="name" required placeholder="Your name">
+        </div>
+        <div class="form-row">
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" required placeholder="+91 ...">
+        </div>
+        <div class="form-row">
+          <label for="time">Preferred time</label>
+          <input id="time" name="time" placeholder="Today 7:30 PM">
+        </div>
+        <button class="btn primary" type="submit">Send request</button>
+        <p class="muted tiny" id="formStatus"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div>© 2025 Bhave Restro Food. Fresh, daily.</div>
+    <a href="#top">Back to top</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
